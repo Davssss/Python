@@ -1,0 +1,19 @@
+fgts = float (input("Digite o valor que você já tem de FGTS: "))
+
+meses = float (input("Digite quantos meses ainda vai trabalhar: "))
+
+
+DMensal = 140
+
+Jmensal = 15
+
+
+CalculoFinal = fgts + (meses * DMensal +(Jmensal * meses))
+
+p = (CalculoFinal * 0.40)
+
+
+print("O valor que você terá ao ser dispensado é:{}".format(CalculoFinal))
+
+print ("O valor que corresponde a 40% do FGTS é {} ".format(p) )
+
